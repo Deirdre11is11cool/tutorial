@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.11.37/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.1.0","target":"arcade","targetVersion":"1.11.37","repo":"deirdre11is11cool/tutorial"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.11.37/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"1.11.37","repo":"deirdre11is11cool/tutorial"}
 // total=1415504 new=7.77% cached=86.72% other=5.51%
 (function (ectx) {
 'use strict';
@@ -435,7 +435,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P57977(s) {
+function _main___P58019(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -855,13 +855,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P57977.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P57977.continuations = [  ]
+_main___P58019.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P58019.continuations = [  ]
 
-function _main___P57977_mk(s) {
+function _main___P58019_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P57977, depth: s.depth + 1,
+        parent: s, fn: _main___P58019, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -46665,5 +46665,5 @@ const sprites_BaseSpriteSayRenderer__C41041_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["mySprite2___43076","mySprite___43077"])
 
-return _main___P57977
+return _main___P58019
 })
